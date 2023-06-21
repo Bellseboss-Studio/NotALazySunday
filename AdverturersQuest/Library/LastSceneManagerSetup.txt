@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Polygon-City Megapolis/Scene/DemoSea.unity
+- path: Assets/Scenes/PRUEBA.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
