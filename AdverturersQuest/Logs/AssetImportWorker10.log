@@ -1,0 +1,275 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 8135 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+E:/UNITY/AdventurersQuest/AdverturersQuest
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+59954
+Successfully changed project path to: E:/UNITY/AdventurersQuest/AdverturersQuest
+E:/UNITY/AdventurersQuest/AdverturersQuest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19356] Host "[IP] 172.18.144.1 [Port] 0 [Flags] 2 [Guid] 2628533425 [EditorId] 2628533425 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8993N5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19356] Host "[IP] 172.18.144.1 [Port] 0 [Flags] 2 [Guid] 2628533425 [EditorId] 2628533425 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8993N5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 162.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UNITY/AdventurersQuest/AdverturersQuest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GT 1030 (ID=0x1d01)
+    Vendor:   NVIDIA
+    VRAM:     1982 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009490 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 110.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1075ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (699ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (173ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009445 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UNITY\AdventurersQuest\AdverturersQuest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UNITY\AdventurersQuest\AdverturersQuest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.735 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1736ms)
+		BeginReloadAssembly (296ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1239ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (462ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (502ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (56.1 KB). Loaded Objects now: 3514.
+Memory consumption went from 110.2 MB to 110.2 MB.
+Total: 4.672200 ms (FindLiveObjects: 0.550300 ms CreateObjectMapping: 0.199800 ms MarkObjects: 3.809500 ms  DeleteObjects: 0.110000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78379.566614 seconds.
+  path: Assets/Polygon-City Megapolis/Demo_Night_Profiles/SkyNight.mat
+  artifactKey: Guid(7369d211bc702304bb1c3e013f678c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Demo_Night_Profiles/SkyNight.mat using Guid(7369d211bc702304bb1c3e013f678c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047c6f09727458de213b64d21d50b64f') in 0.272310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.446387 seconds.
+  path: Assets/Polygon-City Megapolis/Demo_Day_Profiles/Sky.mat
+  artifactKey: Guid(85df08ae517ccb74f832bb4994463f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Demo_Day_Profiles/Sky.mat using Guid(85df08ae517ccb74f832bb4994463f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8c9b31451b70cca6bca756f1b1c91e') in 0.057854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.652432 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_airport_building_01.fbx
+  artifactKey: Guid(27f144c027f6f0444aca21ec8363a9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_airport_building_01.fbx using Guid(27f144c027f6f0444aca21ec8363a9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f29129e42cd986db330bdac7911724') in 0.231753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_runway_strip_10.fbx
+  artifactKey: Guid(bb55928f00e5de14c85edd11d2edd499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_runway_strip_10.fbx using Guid(bb55928f00e5de14c85edd11d2edd499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca333a02fee7b5e855c10c2744e90657') in 0.101784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_loader_01.fbx
+  artifactKey: Guid(8f3c6222f3d44da40a92edd5e112a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_loader_01.fbx using Guid(8f3c6222f3d44da40a92edd5e112a69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629e1dadbecd26a17315ed488ae898a3') in 0.126222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_helicopter_01.fbx
+  artifactKey: Guid(7f671912fd1d5784cbd71017e3757f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_helicopter_01.fbx using Guid(7f671912fd1d5784cbd71017e3757f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9569049783f47129f61729e04618f4') in 0.092117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_airport_building_02.fbx
+  artifactKey: Guid(e06d027f6f1b9704088d6c5a2c3f18ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_airport_building_02.fbx using Guid(e06d027f6f1b9704088d6c5a2c3f18ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f56bb42bd5a8ea758965d40a9f7f4bb') in 0.101112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_runway_strip_08.fbx
+  artifactKey: Guid(1f157520b8c34de4cbe122c818f90d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_runway_strip_08.fbx using Guid(1f157520b8c34de4cbe122c818f90d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aee62cc29202d5630f11242da176b0b') in 0.078941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_runway_strip_04.fbx
+  artifactKey: Guid(1deb13e20dfa98c4eb70fc1c5498f2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_runway_strip_04.fbx using Guid(1deb13e20dfa98c4eb70fc1c5498f2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3eea3cbfcb450edbec2dcfa4570ef9') in 0.051862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_boarding_ladder_01.fbx
+  artifactKey: Guid(2c408eec94a0efe4c9bb839f36777494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_boarding_ladder_01.fbx using Guid(2c408eec94a0efe4c9bb839f36777494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ff036a2dd1eb153b2b1f23da44c7a1') in 0.171920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_runway_strip_09.fbx
+  artifactKey: Guid(cc33b7cd58aec244eba27decb5a81c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_runway_strip_09.fbx using Guid(cc33b7cd58aec244eba27decb5a81c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09afbd9a826377df7e3d2918fd8af96e') in 0.095564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_runway_strip_07.fbx
+  artifactKey: Guid(46f5880daf9f08c4fbf73f37ce8fa230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_runway_strip_07.fbx using Guid(46f5880daf9f08c4fbf73f37ce8fa230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c558bd3eb63b2bacf6578f2b75b05779') in 0.057191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_runway_strip_05.fbx
+  artifactKey: Guid(312cbff03b86e144b862c7c51ecd68e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_runway_strip_05.fbx using Guid(312cbff03b86e144b862c7c51ecd68e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b8cba8806b0b63e516f19958745996') in 0.066415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_hangar_01.fbx
+  artifactKey: Guid(ac29a78876daf5a4db023c5653b73c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_hangar_01.fbx using Guid(ac29a78876daf5a4db023c5653b73c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d42ec1b3fabdbba0b47ba61e7e60e86') in 0.136879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_Light_04.fbx
+  artifactKey: Guid(6efe382aef804c24d9d510eeac82011e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_Light_04.fbx using Guid(6efe382aef804c24d9d510eeac82011e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20223f215e99b25384b61f623bb2ffef') in 0.053992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_Light_02.fbx
+  artifactKey: Guid(a48e46afa5fc70240b707f8f42a67ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_Light_02.fbx using Guid(a48e46afa5fc70240b707f8f42a67ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c3b5af8e89515bf28a4f23b522a203') in 0.089354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_Hangar_02.fbx
+  artifactKey: Guid(02835e013d91c694a8718f53f57695fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_Hangar_02.fbx using Guid(02835e013d91c694a8718f53f57695fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91f30912bb0312c58d643c21bf4042b') in 0.143722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Polygon-City Megapolis/Models/Airport/SM_runway_strip_11.fbx
+  artifactKey: Guid(1b0979d825339dc4cbcb8f45c9e639c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Models/Airport/SM_runway_strip_11.fbx using Guid(1b0979d825339dc4cbcb8f45c9e639c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81a81e8744821940d96a101b28de773') in 0.088826 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

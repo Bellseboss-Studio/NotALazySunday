@@ -1,0 +1,425 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 8135 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker17
+-projectPath
+E:/UNITY/AdventurersQuest/AdverturersQuest
+-logFile
+Logs/AssetImportWorker17.log
+-srvPort
+59954
+Successfully changed project path to: E:/UNITY/AdventurersQuest/AdverturersQuest
+E:/UNITY/AdventurersQuest/AdverturersQuest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19300] Host "[IP] 172.18.144.1 [Port] 0 [Flags] 2 [Guid] 1942189933 [EditorId] 1942189933 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8993N5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19300] Host "[IP] 172.18.144.1 [Port] 0 [Flags] 2 [Guid] 1942189933 [EditorId] 1942189933 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H8993N5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 137.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UNITY/AdventurersQuest/AdverturersQuest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GT 1030 (ID=0x1d01)
+    Vendor:   NVIDIA
+    VRAM:     1982 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008692 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 84.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Domain Reload Profiling:
+	ReloadAssembly (941ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (639ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (366ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010859 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UNITY\AdventurersQuest\AdverturersQuest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UNITY\AdventurersQuest\AdverturersQuest\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.635 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1636ms)
+		BeginReloadAssembly (242ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1183ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (405ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (503ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (353ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (56.1 KB). Loaded Objects now: 3514.
+Memory consumption went from 110.3 MB to 110.3 MB.
+Total: 5.626900 ms (FindLiveObjects: 0.535900 ms CreateObjectMapping: 0.198400 ms MarkObjects: 4.743800 ms  DeleteObjects: 0.147500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 79170.148893 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/Roads/SM_road_057.prefab
+  artifactKey: Guid(c7cb767857b356e49bd30c35c17a450c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/Roads/SM_road_057.prefab using Guid(c7cb767857b356e49bd30c35c17a450c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18963bd1e84b37d2f9c90868a01bb390') in 0.281782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.036867 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_pancake_for_barbell_01.prefab
+  artifactKey: Guid(4e808d173c27327469a201d8b76c1f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_pancake_for_barbell_01.prefab using Guid(4e808d173c27327469a201d8b76c1f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2710464ded67b2ea22e12ffafbdae6ac') in 0.114636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_picnic_basket_01.prefab
+  artifactKey: Guid(fcac6e4996bfdfc44a5e88c220993992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_picnic_basket_01.prefab using Guid(fcac6e4996bfdfc44a5e88c220993992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf54c19db1139492e1f88c9540a4396d') in 0.248166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_Pillar_01_A.prefab
+  artifactKey: Guid(24e4fa06c13085a4bb6256ddd54bc1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_Pillar_01_A.prefab using Guid(24e4fa06c13085a4bb6256ddd54bc1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0748a361e1c77f93729770aebe12ff5f') in 0.160162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.806820 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_Pillar_02.prefab
+  artifactKey: Guid(36fe29686ebccf24cbc816fc1f5dacac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_Pillar_02.prefab using Guid(36fe29686ebccf24cbc816fc1f5dacac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0feefffb76cba74e9dd3f26c564d973') in 0.290650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_pillar_03_C.prefab
+  artifactKey: Guid(3aec909cd414c8d4b989780e85818d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_pillar_03_C.prefab using Guid(3aec909cd414c8d4b989780e85818d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27812b7ac327bd86d3894d8f8d5d94d') in 0.065637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_pillar_04.prefab
+  artifactKey: Guid(1f12dfebb9582ba449926da0f0a99e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_pillar_04.prefab using Guid(1f12dfebb9582ba449926da0f0a99e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de1edf3fcddf6649a1976f5eed02fff') in 0.102226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015297 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_pillar_04_C.prefab
+  artifactKey: Guid(e47ef2c87945ca8479e9bd22ad145c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_pillar_04_C.prefab using Guid(e47ef2c87945ca8479e9bd22ad145c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5c7cf5dfec48b354b9d8d054cee431') in 0.107988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_platform_01.prefab
+  artifactKey: Guid(173cd066b434b4d4f8ff5e6265ef09fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_platform_01.prefab using Guid(173cd066b434b4d4f8ff5e6265ef09fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f3fd576f3837b0787bdffa5cf49da9') in 0.156729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_platform_03.prefab
+  artifactKey: Guid(561a89536f7653c40baa696f657269f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_platform_03.prefab using Guid(561a89536f7653c40baa696f657269f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67e7f0a5faa3ec3b15804bb1327f9b9') in 0.119532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.137738 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_platform_06.prefab
+  artifactKey: Guid(b3f0563ae032cab41b8fddf28063ce4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_platform_06.prefab using Guid(b3f0563ae032cab41b8fddf28063ce4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b970f2dd093c21cd384560c9d134279') in 0.097329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047524 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_platform_09.prefab
+  artifactKey: Guid(40ec0acce16eb024e8ed496102d3a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_platform_09.prefab using Guid(40ec0acce16eb024e8ed496102d3a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797ccd08e5f82da207631a10d5a34160') in 0.356411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_playground_03.prefab
+  artifactKey: Guid(b0935ae8a48465c45afcabffd9bbcbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_playground_03.prefab using Guid(b0935ae8a48465c45afcabffd9bbcbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e25366ac7b562b99d8fe96a363e4da') in 0.052520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_playground_06.prefab
+  artifactKey: Guid(73fc9b0c7c18d0843af9a2b8bbd28951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_playground_06.prefab using Guid(73fc9b0c7c18d0843af9a2b8bbd28951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79ea24410ce52330fc1fbba06216263') in 0.158726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_press_bench_01.prefab
+  artifactKey: Guid(6e3bf785e2079224385b49b744f7e8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_press_bench_01.prefab using Guid(6e3bf785e2079224385b49b744f7e8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918f386cf3ad0bd89f83645a34c5a357') in 0.117406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_puddle_01.prefab
+  artifactKey: Guid(6f1872a2b6b0d3b4bb3d306ae557dcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_puddle_01.prefab using Guid(6f1872a2b6b0d3b4bb3d306ae557dcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b579a0d23853ea14141b3412653726b3') in 0.108925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.927569 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_puddle_02.prefab
+  artifactKey: Guid(9ac318575a7d5534a96018f21f3e56f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_puddle_02.prefab using Guid(9ac318575a7d5534a96018f21f3e56f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1363f924e4c774c1b025d85fd57b83') in 0.271475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029650 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_02.prefab
+  artifactKey: Guid(a61d92d3195ebf944947783daf3f8082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_02.prefab using Guid(a61d92d3195ebf944947783daf3f8082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5927ecff2560c58281997f0e9d120d9e') in 0.091920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073587 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_05.prefab
+  artifactKey: Guid(5cf756779df2b874ab5ff20c98d55b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_05.prefab using Guid(5cf756779df2b874ab5ff20c98d55b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b265ed5deb476e98a10f53485e9aea78') in 0.053916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045658 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_08.prefab
+  artifactKey: Guid(994d0cc20d4b98a4faaaaa60fc17d9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_08.prefab using Guid(994d0cc20d4b98a4faaaaa60fc17d9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ff18bf2afb38096322b5375f633fce') in 0.105727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028224 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_11.prefab
+  artifactKey: Guid(346e6a52514990144a817c500fcfcfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_11.prefab using Guid(346e6a52514990144a817c500fcfcfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15ad5448d42c6f95ae7d400c3dbb815') in 0.069123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_14.prefab
+  artifactKey: Guid(488b285e875295645b76c2b9bcb3b729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_14.prefab using Guid(488b285e875295645b76c2b9bcb3b729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86c994a9d12ad7e998ea1b1826d9086') in 0.138275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.682903 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_15.prefab
+  artifactKey: Guid(bf9a8a0ecda0d6d4e96b5d706cab3e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_15.prefab using Guid(bf9a8a0ecda0d6d4e96b5d706cab3e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1e6c656ff5ad3a520a2b4c113fb95b') in 0.043404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060487 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_18.prefab
+  artifactKey: Guid(930a2c43f0f5d414797acec97a431157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_18.prefab using Guid(930a2c43f0f5d414797acec97a431157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7158a604ac241211db5fae9b41a8daca') in 0.098553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_20.prefab
+  artifactKey: Guid(38dd0bb3e3afe6449bbb953def365368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_20.prefab using Guid(38dd0bb3e3afe6449bbb953def365368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae4fbac019dda2e4737d838e518d366') in 0.054377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_23.prefab
+  artifactKey: Guid(e6764d1f407ec73418e57afbe0f5a5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_23.prefab using Guid(e6764d1f407ec73418e57afbe0f5a5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd90be7fb427f2da01f896d76091d49') in 0.236093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032710 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_pit_01.prefab
+  artifactKey: Guid(3ed76afd9a9362640b55c67fa6985763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_pit_01.prefab using Guid(3ed76afd9a9362640b55c67fa6985763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20085f86d604a9618b3d2d5697d3789') in 0.248805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_sign_08.prefab
+  artifactKey: Guid(bbed71451df454b429fd19c97c7a4aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_sign_08.prefab using Guid(bbed71451df454b429fd19c97c7a4aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cdb000df1e22c74f8e7e243be28d62') in 0.099179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.730765 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_sign_A.prefab
+  artifactKey: Guid(4d855c890b114c64f85b6b9eb405ed4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_sign_A.prefab using Guid(4d855c890b114c64f85b6b9eb405ed4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65eaebacf20de173c25b7a649180b8a4') in 0.087524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015964 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_water_barrel_01.prefab
+  artifactKey: Guid(d81f7d975eb8a764b8e73737840c3ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_road_water_barrel_01.prefab using Guid(d81f7d975eb8a764b8e73737840c3ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bbaa1aa4d2cb9a5aba1c2199cef4ea') in 0.443034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018478 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_sand_04_A.prefab
+  artifactKey: Guid(4d02891ed95399e40be51938161b4b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_sand_04_A.prefab using Guid(4d02891ed95399e40be51938161b4b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c502ad7a0eaa5d75e0f21bdad28318e4') in 0.332090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_sewage_01.prefab
+  artifactKey: Guid(081a8e56ebdb9e640af239c823d1298a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_sewage_01.prefab using Guid(081a8e56ebdb9e640af239c823d1298a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb8bf212b1b2343c7cd6594b0cf8480') in 0.134770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.954703 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_street_coffee_shop.prefab
+  artifactKey: Guid(c2959ec06cb11ec4da363e5edd4f1b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_street_coffee_shop.prefab using Guid(c2959ec06cb11ec4da363e5edd4f1b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7a2b00922a5471258c3380541672b1') in 0.070640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057264 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_Street_light_01.prefab
+  artifactKey: Guid(7d17d7aa5dfe4ca43b5428ee1535ecfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_Street_light_01.prefab using Guid(7d17d7aa5dfe4ca43b5428ee1535ecfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dec389967194e9f5a8df18c59debd76') in 0.222317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_traffic_cone_01.prefab
+  artifactKey: Guid(f9f39132e59d08f4b8f339a17495fcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_traffic_cone_01.prefab using Guid(f9f39132e59d08f4b8f339a17495fcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd66f92b1ebf1e2c60c7f13b49e9ff95') in 0.068619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009667 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_Treadmill_01.prefab
+  artifactKey: Guid(b4c919b2ca86d0e40a07cf52c004c10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_Treadmill_01.prefab using Guid(b4c919b2ca86d0e40a07cf52c004c10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51882b47135c59e221d36354bf64edf') in 0.154417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012291 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_tromway_paths_02.prefab
+  artifactKey: Guid(4ad15ea0d69576242bda60c16f7ad30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_tromway_paths_02.prefab using Guid(4ad15ea0d69576242bda60c16f7ad30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84402adc593b5c02b57fdedf57607c27') in 0.170934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006251 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_tromway_paths_05.prefab
+  artifactKey: Guid(d35489e39e8f9ae46bd3049e704194f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_tromway_paths_05.prefab using Guid(d35489e39e8f9ae46bd3049e704194f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffec51499824e6899359bbf442d81980') in 0.099342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046554 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_tunnel_02.prefab
+  artifactKey: Guid(485d38e667ae91b4ca183c80e3803f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_tunnel_02.prefab using Guid(485d38e667ae91b4ca183c80e3803f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c687e0c5aae75cb5f4984f549f3e0b91') in 0.114777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011968 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_underground_pass_01.prefab
+  artifactKey: Guid(234f94f9568d09f4d9248c8b562ca598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_underground_pass_01.prefab using Guid(234f94f9568d09f4d9248c8b562ca598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b5e458e8be4ffbf0c3010f4ea74657') in 0.308914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_water_channels_03.prefab
+  artifactKey: Guid(6696e6c0969ceb64292df32adf6dcb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_water_channels_03.prefab using Guid(6696e6c0969ceb64292df32adf6dcb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382b22d45e5c5baf9981124529f4d9f5') in 0.162084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.230672 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_traffic_cone_04.prefab
+  artifactKey: Guid(06d00a47ab5083f46bf9d1b91297ac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_traffic_cone_04.prefab using Guid(06d00a47ab5083f46bf9d1b91297ac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b523a73a8909f4b98ab7a83065d8d583') in 0.141705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018107 seconds.
+  path: Assets/Polygon-City Megapolis/Prefab/CityProps/SM_trailer_01.prefab
+  artifactKey: Guid(3a9ed0f04f04e8442b9d0efb51a46ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-City Megapolis/Prefab/CityProps/SM_trailer_01.prefab using Guid(3a9ed0f04f04e8442b9d0efb51a46ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1537f1c7d17fdd4f4e00ffd3d02ac99a') in 0.306959 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
