@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 7369d211bc702304bb1c3e013f678c35, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 9ca22510633fbfd4399f1704cd9d5c72, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.13877288, g: 0.1475116, b: 0.17273355, a: 1}
+  m_IndirectSpecularColor: {r: 0.35209528, g: 0.72411317, b: 0.95809513, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -155,7 +155,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 655427997126987709}
-  m_RootOrder: 71
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &3696842
 MeshCollider:
@@ -34509,6 +34509,7 @@ GameObject:
   - component: {fileID: 6248931367433493035}
   - component: {fileID: 8561050324439863481}
   - component: {fileID: 7913246527007368401}
+  - component: {fileID: 8561050324439863482}
   m_Layer: 0
   m_Name: blades_02
   m_TagString: Untagged
@@ -34598,8 +34599,8 @@ Transform:
   - {fileID: 128797581}
   - {fileID: 2068358651}
   - {fileID: 132128954}
-  - {fileID: 357563560}
   - {fileID: 3696841}
+  - {fileID: 357563560}
   - {fileID: 952379098}
   - {fileID: 993997399}
   - {fileID: 77501435}
@@ -40651,6 +40652,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 465487921998136771}
   m_Mesh: {fileID: -4248710120675157865, guid: a67a454b227dd7247ba2c5abd6cbc589, type: 3}
+--- !u!114 &8561050324439863482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465487921998136771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265cbd8e7e666450f8588dd39cbc7f15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Transform: {fileID: 6248931367433493035}
+  m_Speed: 20
 --- !u!23 &8581247749411616314
 MeshRenderer:
   m_ObjectHideFlags: 0
