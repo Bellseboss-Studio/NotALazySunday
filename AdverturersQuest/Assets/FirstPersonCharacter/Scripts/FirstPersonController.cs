@@ -72,7 +72,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (!m_PreviouslyGrounded && m_CharacterController.isGrounded)
             {
                 StartCoroutine(m_JumpBob.DoBobCycle());
-                PlayLandingSound();
+                PlayLandingSound(); // THIS
                 m_MoveDir.y = 0f;
                 m_Jumping = false;
             }
@@ -117,7 +117,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 if (m_Jump)
                 {
                     m_MoveDir.y = m_JumpSpeed;
-                    PlayJumpSound();
+                    PlayJumpSound(); // THIS
                     m_Jump = false;
                     m_Jumping = true;
                 }
@@ -135,7 +135,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         }
 
 
-        private void PlayJumpSound()
+        private void PlayJumpSound() // THIS
         {
             m_AudioSource.clip = m_JumpSound;
             m_AudioSource.Play();
@@ -157,11 +157,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             m_NextStep = m_StepCycle + m_StepInterval;
 
-            PlayFootStepAudio();
+            PlayFootStepAudio(); // THIS
         }
 
 
-        private void PlayFootStepAudio()
+        private void PlayFootStepAudio() // THIS
         {
             if (!m_CharacterController.isGrounded)
             {
