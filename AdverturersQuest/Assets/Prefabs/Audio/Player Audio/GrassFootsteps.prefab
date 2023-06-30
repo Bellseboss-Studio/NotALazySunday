@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &401564213670990413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 401564213670990410}
+  - component: {fileID: 4893195538954725687}
+  m_Layer: 0
+  m_Name: GrassFootsteps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &401564213670990410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401564213670990413}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.7706966, y: -8.364079, z: -37.548428}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4893195538954725687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401564213670990413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376027582762422babae926117534877, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Coordinates: 0.31
+  AudioClips:
+  - {fileID: 8300000, guid: ce2372022dce34c5997ad88f47b037c3, type: 3}
+  - {fileID: 8300000, guid: d4d8212e003d44f8785a95289fcdf19c, type: 3}
+  - {fileID: 8300000, guid: 69ce8e3f5209148e69bf3ed5409617dc, type: 3}
+  - {fileID: 8300000, guid: c8810398f82f24d69ba2f802155625ca, type: 3}
+  InitialVolume: 0.2
+  VolumeVariation: 0.221
+  InitialPitch: 1
+  PitchVariation: 0.235

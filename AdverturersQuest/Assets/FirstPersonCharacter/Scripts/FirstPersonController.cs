@@ -25,7 +25,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private CurveControlledBob m_HeadBob = new CurveControlledBob();
         [SerializeField] private LerpControlledBob m_JumpBob = new LerpControlledBob();
         [SerializeField] private float m_StepInterval;
+        [SerializeField] private Event m_FootstepTrigger;
         [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
+
+        [SerializeField] private bool m_CanJump;
         [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
 
@@ -64,15 +67,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             RotateView();
             // the jump state needs to read here to make sure it is not missed
-            if (!m_Jump)
+            if (!m_Jump && m_CanJump)
             {
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
             }
 
-            if (!m_PreviouslyGrounded && m_CharacterController.isGrounded)
+            if (!m_PreviouslyGrounded && m_CharacterController.isGrounded && m_CanJump )
             {
                 StartCoroutine(m_JumpBob.DoBobCycle());
-                PlayLandingSound(); // THIS
+              //  PlayLandingSound(); // THIS
                 m_MoveDir.y = 0f;
                 m_Jumping = false;
             }
@@ -117,7 +120,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 if (m_Jump)
                 {
                     m_MoveDir.y = m_JumpSpeed;
-                    PlayJumpSound(); // THIS
+                  //  PlayJumpSound(); // THIS
                     m_Jump = false;
                     m_Jumping = true;
                 }
@@ -157,7 +160,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             m_NextStep = m_StepCycle + m_StepInterval;
 
-            PlayFootStepAudio(); // THIS
+            PlayFootStepAudio();
+            // THIS
         }
 
 
@@ -169,12 +173,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
             // pick & play a random footstep sound from the array,
             // excluding sound at index 0
-            int n = Random.Range(1, m_FootstepSounds.Length);
+           /* int n = Random.Range(1, m_FootstepSounds.Length);
             m_AudioSource.clip = m_FootstepSounds[n];
             m_AudioSource.PlayOneShot(m_AudioSource.clip);
             // move picked sound to index 0 so it's not picked next time
             m_FootstepSounds[n] = m_FootstepSounds[0];
-            m_FootstepSounds[0] = m_AudioSource.clip;
+            m_FootstepSounds[0] = m_AudioSource.clip;*/
+           m_FootstepTrigger.Occurred();
         }
 
 

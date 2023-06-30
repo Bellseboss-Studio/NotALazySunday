@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6077665405330686046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5493434256754490144}
+  - component: {fileID: 5421787849001143835}
+  m_Layer: 0
+  m_Name: WaterFootsteps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5493434256754490144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6077665405330686046}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.933275, y: 13.866181, z: -50.097725}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5421787849001143835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6077665405330686046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 773c0734737048cb9a796b99d18a7fc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  Coordinates: 0.32
+  AudioClips:
+  - {fileID: 8300000, guid: 10e4d274650eb4c23829a3481efdb0f9, type: 3}
+  - {fileID: 8300000, guid: a7ef191716fe1457c9baebaf333d10d5, type: 3}
+  - {fileID: 8300000, guid: de0af3bdfddb94458ba0c3f638684514, type: 3}
+  - {fileID: 8300000, guid: 879890bebd59449a3b619c7942136f01, type: 3}
+  InitialVolume: 0.2
+  VolumeVariation: 0.197
+  InitialPitch: 1
+  PitchVariation: 0.251
