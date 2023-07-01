@@ -6,11 +6,11 @@ using Random = UnityEngine.Random;
 
 [RequireComponent(typeof(AudioSource))]
 public class PlayPlayerAudio : MonoBehaviour
-{
-    [SerializeField] private FootstepSound[] m_FootstepSurfaces;
+{ 
+    [SerializeField] private FootstepSurface[] m_Surfaces;
     [SerializeField] private RaycastToPhysicMaterial m_RaycastToPhysicalMaterial;
     [SerializeField] private AudioSource m_AudioSource;
-    private Dictionary<float, FootstepSound> m_FootstepsList = new Dictionary<float, FootstepSound>();
+    private Dictionary<float, FootstepSurface> m_FootstepsList = new Dictionary<float, FootstepSurface>();
     private AudioClip m_AudioClip;
     private void Start()
     {
@@ -18,9 +18,9 @@ public class PlayPlayerAudio : MonoBehaviour
         {
             m_AudioSource = GetComponent<AudioSource>();
         }
-        foreach (var footstepSound in m_FootstepSurfaces)
+        foreach (var surface in m_Surfaces)
         {
-            m_FootstepsList.Add(footstepSound.Coordinates,footstepSound);
+            m_FootstepsList.Add(surface.Coordinates,surface);
         }
     }
 
@@ -30,13 +30,13 @@ public class PlayPlayerAudio : MonoBehaviour
        
         try
         {
-            FootstepSound footstepSound = m_FootstepsList[mat];
-            int randomIndex = Random.Range(0, footstepSound.AudioClips.Length);
-            m_AudioClip = footstepSound.AudioClips[randomIndex];
-            m_AudioSource.volume = Random.Range(footstepSound.InitialVolume - footstepSound.VolumeVariation,
-                footstepSound.InitialVolume + footstepSound.VolumeVariation);
-            m_AudioSource.pitch = Random.Range(footstepSound.InitialPitch - footstepSound.PitchVariation,
-                footstepSound.InitialPitch + footstepSound.PitchVariation);
+            FootstepSurface surface = m_FootstepsList[mat];
+            int randomIndex = Random.Range(0, surface.AudioClips.Length);
+            m_AudioClip = surface.AudioClips[randomIndex];
+            m_AudioSource.volume = Random.Range(surface.InitialVolume - surface.VolumeVariation,
+                surface.InitialVolume + surface.VolumeVariation);
+            m_AudioSource.pitch = Random.Range(surface.InitialPitch - surface.PitchVariation,
+                surface.InitialPitch + surface.PitchVariation);
             m_AudioSource.PlayOneShot(m_AudioClip);
         }
         catch (Exception e)

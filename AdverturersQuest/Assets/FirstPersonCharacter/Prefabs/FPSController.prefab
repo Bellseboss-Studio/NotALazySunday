@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 5249208370414822859}
   m_Layer: 0
   m_Name: FPSController
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -323,10 +323,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a96f998c4bb4492fabe346f469e34df8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FootstepSurfaces:
-  - {fileID: 4893195538954725687, guid: 3c55ca18bbc2842b9b776cc55f851855, type: 3}
-  - {fileID: 5421787849001143835, guid: b184285ae36b44e2e855af8668bddf9f, type: 3}
-  - {fileID: -1670019445034012760, guid: e141d1664682f47f7b843f92d0894a3c, type: 3}
+  m_Surfaces:
+  - {fileID: 11400000, guid: af2f7781be1c049c78e4217b61a32dd0, type: 2}
+  - {fileID: 11400000, guid: db72a6d104093488c85aeec2b05b6f2d, type: 2}
+  - {fileID: 11400000, guid: a8b21da47adec41a583d9f1de5146fca, type: 2}
+  - {fileID: 11400000, guid: b22e038292e0949f2b6a9f07189e768a, type: 2}
+  - {fileID: 11400000, guid: 4f1254040994d412faef96c39056e0a8, type: 2}
+  - {fileID: 11400000, guid: 4c215e7babca74fc9a3950e140622ddb, type: 2}
+  - {fileID: 11400000, guid: 8b14d7c2d2d11402d8a67e1a194f3629, type: 2}
+  - {fileID: 11400000, guid: b0e218fd377924b34b4b203f51ef60f5, type: 2}
   m_RaycastToPhysicalMaterial: {fileID: 6614217059071924832}
   m_AudioSource: {fileID: 4505501867109046297}
 --- !u!114 &5249208370414822859

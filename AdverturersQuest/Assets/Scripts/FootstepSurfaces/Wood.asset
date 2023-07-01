@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40291a1bd6f84315aed1a0131de1065c, type: 3}
+  m_Name: Wood
+  m_EditorClassIdentifier: 
+  Name: 
+  Coordinates: 0.02
+  AudioClips:
+  - {fileID: 8300000, guid: 53a4509f7571b42e0b6e6a6852de925c, type: 3}
+  - {fileID: 8300000, guid: 83c68a855c0ba4d1bbbd20a004052ee0, type: 3}
+  - {fileID: 8300000, guid: 4a9b1fa1793b34cd7b64142b8b0e9a4f, type: 3}
+  - {fileID: 8300000, guid: b5632d01579f740a4a81a3fa852569c9, type: 3}
+  InitialVolume: 0.2
+  VolumeVariation: 0.2
+  InitialPitch: 1
+  PitchVariation: 0.2

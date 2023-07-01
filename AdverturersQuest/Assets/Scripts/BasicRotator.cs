@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rotate : MonoBehaviour
+public class BasicRotator : MonoBehaviour
 {
     [SerializeField] private Transform m_Transform;
     [SerializeField] private float m_Speed;
