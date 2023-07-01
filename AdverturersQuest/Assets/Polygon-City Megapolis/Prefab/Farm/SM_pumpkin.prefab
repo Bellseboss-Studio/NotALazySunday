@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7249107892813611722}
   - component: {fileID: 8145267865478949927}
   - component: {fileID: 3605968190163344643}
+  - component: {fileID: 1135617173188256561}
   m_Layer: 0
   m_Name: SM_pumpkin
   m_TagString: Untagged
@@ -125,5 +126,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e038283b9a544eabb79b8496ea5edfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Mesh1: {fileID: -5339046911927493889, guid: 3f276c818e1ddb8439bd33fef0daf62b, type: 3}
-  m_Mesh2: {fileID: -255331698286975821, guid: bfdd474f56d68ec459c75412f25a0064, type: 3}
+  m_Grow: {fileID: 7400000, guid: 3c91c8075fbe24b2dbe8081524bea2cb, type: 2}
+--- !u!95 &1135617173188256561
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2323837142560514251}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d524293df397b4c3db1fbdc47e66d791, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

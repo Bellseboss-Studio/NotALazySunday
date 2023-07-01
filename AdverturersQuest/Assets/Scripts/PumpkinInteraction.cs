@@ -1,17 +1,19 @@
 using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class PumpkinInteraction : Interactable
 {
-    private MeshRenderer m_MeshRenderer1;
-    private MeshFilter m_MeshFilter;
-    
-    [SerializeField] private Mesh m_Mesh1;
-    [SerializeField] private Mesh m_Mesh2;
+    [SerializeField] private AnimationClip m_Grow;
+    private Animator m_Anim;
+    private static readonly int Grow = Animator.StringToHash("Grow");
+
     private void Start()
     {
-        m_MeshFilter = GetComponent<MeshFilter>();
+        m_Anim = GetComponent<Animator>();
+        m_Anim.enabled = false;
     }
 
     protected override void PerformInteraction()
@@ -21,14 +23,11 @@ public class PumpkinInteraction : Interactable
 
     IEnumerator BreakPumpkin()
     {
-        m_MeshFilter.mesh = m_Mesh2;
-        yield return new WaitForSeconds(2);
-        transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
-        m_MeshFilter.mesh = m_Mesh1;
-        while (transform.localScale.magnitude < 2.5f)
-        {
-            transform.localScale *= 0.1f;
-        }
-        
+        transform.localScale = Vector3.zero;
+        m_Anim.enabled = true;
+        yield return new WaitForSeconds(m_Grow.length);
+        Debug.Log(Grow);
+        m_Anim.enabled = false;
     }
 }
+    
