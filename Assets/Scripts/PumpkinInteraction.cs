@@ -1,8 +1,5 @@
-using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 public class PumpkinInteraction : Interactable
 {
@@ -15,6 +12,15 @@ public class PumpkinInteraction : Interactable
         m_Anim = GetComponent<Animator>();
         m_Anim.enabled = false;
     }
+    protected override void OnTriggerEnter(Collider other)
+    {
+        base.OnTriggerEnter(other);
+    }
+
+    protected override void OnTriggerExit(Collider other)
+    {
+        base.OnTriggerExit(other);
+    }
 
     protected override void PerformInteraction()
     {
@@ -26,8 +32,7 @@ public class PumpkinInteraction : Interactable
         transform.localScale = Vector3.zero;
         m_Anim.enabled = true;
         yield return new WaitForSeconds(m_Grow.length);
-        Debug.Log(Grow);
+        Debug.Log("Pumpkin is ready");
         m_Anim.enabled = false;
     }
 }
-    
