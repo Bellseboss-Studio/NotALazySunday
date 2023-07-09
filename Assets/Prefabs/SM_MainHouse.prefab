@@ -164,7 +164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e38c190da0ce4a588e26fec3800afb8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_DoorRotation: {fileID: 7400000, guid: 3491c189b9f3b45808b52ff3e86baf40, type: 2}
+  m_Anim: {fileID: 6318711307977412559}
+  m_HoldOpenTime: 4
 --- !u!65 &8374842273522927189
 BoxCollider:
   m_ObjectHideFlags: 0
