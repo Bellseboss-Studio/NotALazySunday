@@ -3,10 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Interactable : MonoBehaviour
 {
     private bool m_isOverlapped;
     private bool m_HasCliked;
+    
+    
+    
     protected virtual void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player"))

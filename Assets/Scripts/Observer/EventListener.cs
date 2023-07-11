@@ -11,12 +11,20 @@ public class EventListener : MonoBehaviour
 
     private void OnEnable()
     {
-        m_GameEvent.Register(this);
+        if (m_GameEvent)
+        {
+            m_GameEvent.Register(this);
+        }
+        
     }
 
     public void OnDisable()
     {
-        m_GameEvent.Unregister(this);
+        if (m_GameEvent)
+        {
+            m_GameEvent.Unregister(this); 
+        }
+        
     }
 
     public void OnEventOccurs()
