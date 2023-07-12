@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4194054118193131807}
   - component: {fileID: 2148413517843826133}
   - component: {fileID: 167850881342182648}
+  - component: {fileID: 8949067701667249687}
   m_Layer: 0
   m_Name: SM_banner_02
   m_TagString: Untagged
@@ -29,6 +30,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6287627752062478111}
   m_Father: {fileID: 0}
@@ -53,10 +55,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,6 +85,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &167850881342182648
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -90,11 +95,24 @@ MeshCollider:
   m_GameObject: {fileID: 490978971812701184}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5988836509375678247, guid: 1bec2a85441fe5f419c657b9a8fa8a4d, type: 3}
+--- !u!65 &8949067701667249687
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490978971812701184}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8860511, y: 5.572383, z: 0.8860511}
+  m_Center: {x: 0, y: 2.7161913, z: 0}
 --- !u!1 &8366318028757498005
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,6 +125,7 @@ GameObject:
   - component: {fileID: 7429118199328569770}
   - component: {fileID: 1190212847903834249}
   - component: {fileID: 4797379912367603163}
+  - component: {fileID: 2408260411158567971}
   m_Layer: 0
   m_Name: banner_A
   m_TagString: Untagged
@@ -124,6 +143,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: -0.10030874, z: 0.0000048828124}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 980551524631805626}
   m_RootOrder: 0
@@ -147,10 +167,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -175,6 +197,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &4797379912367603163
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -184,8 +207,21 @@ MeshCollider:
   m_GameObject: {fileID: 8366318028757498005}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8406130730565774727, guid: 1bec2a85441fe5f419c657b9a8fa8a4d, type: 3}
+--- !u!65 &2408260411158567971
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8366318028757498005}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7868059, y: 1.679087, z: 0.9663482}
+  m_Center: {x: 0.0000019073486, y: 4.1621146, z: 0.15083142}
