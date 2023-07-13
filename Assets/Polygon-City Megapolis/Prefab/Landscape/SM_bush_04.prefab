@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4622351745379324893}
   - component: {fileID: 8613767577391520888}
   - component: {fileID: 5795790431902116018}
-  - component: {fileID: -7379535631836364339}
   - component: {fileID: 6534322143262997234}
   m_Layer: 0
   m_Name: SM_bush_04
@@ -85,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-7379535631836364339
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5435339801812109671}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5093666855300846525, guid: 0d0772fdd859a4c459b9cbf295a72c18, type: 3}
 --- !u!65 &6534322143262997234
 BoxCollider:
   m_ObjectHideFlags: 0
