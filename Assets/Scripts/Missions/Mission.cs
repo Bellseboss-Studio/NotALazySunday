@@ -29,9 +29,12 @@ public class Mission : Interactable
     
     protected override void PerformInteraction()
     {
-        if(!m_IsPreviousMissionComplete)
-        m_MissionNoCompletedEvent.Occurred();
+        if (!m_IsPreviousMissionComplete)
+        {
+            m_MissionNoCompletedEvent.Occurred();
+        }
     }
+       
 
     private void CheckDependencies()
     {
