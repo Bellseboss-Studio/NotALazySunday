@@ -5,7 +5,7 @@ using UnityEngine;
 public class ShowDialogue : MonoBehaviour
 {
    
-    void Start()
+    void OnEnable()
     {
         StartCoroutine(ActivateDialoguePopup());
     }

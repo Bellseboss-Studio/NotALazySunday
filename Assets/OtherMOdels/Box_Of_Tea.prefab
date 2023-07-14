@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1659981132745429873
+--- !u!1 &8736879663767063539
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,26 +8,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2036366620872673739}
-  - component: {fileID: 3165321569058358894}
-  - component: {fileID: 867378865864700580}
-  - component: {fileID: 9073619654042946143}
-  - component: {fileID: 7530123542809069067}
-  - component: {fileID: 7173861294464439355}
+  - component: {fileID: 8247341540227928393}
+  - component: {fileID: 5033805001258229484}
+  - component: {fileID: 7079480165088373286}
+  - component: {fileID: 2481036015678705569}
   m_Layer: 0
-  m_Name: SM_ATM
+  m_Name: Box_Of_Tea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2036366620872673739
+--- !u!4 &8247341540227928393
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1659981132745429873}
+  m_GameObject: {fileID: 8736879663767063539}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -36,21 +34,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3165321569058358894
+--- !u!33 &5033805001258229484
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1659981132745429873}
-  m_Mesh: {fileID: 5283176134434784156, guid: ad79d805e8e0ba642805f5cd6aee0794, type: 3}
---- !u!23 &867378865864700580
+  m_GameObject: {fileID: 8736879663767063539}
+  m_Mesh: {fileID: 3716640957354861583, guid: 724682863fa8f46c4a33fc18fe0844ad, type: 3}
+--- !u!23 &7079480165088373286
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1659981132745429873}
+  m_GameObject: {fileID: 8736879663767063539}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -64,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a7e7e45efba66a546a27014f9d383832, type: 2}
+  - {fileID: 3758952881610933197, guid: 724682863fa8f46c4a33fc18fe0844ad, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -86,44 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9073619654042946143
-BoxCollider:
+--- !u!64 &2481036015678705569
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1659981132745429873}
+  m_GameObject: {fileID: 8736879663767063539}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.738514, y: 1.8058414, z: 1.0965998}
-  m_Center: {x: 0.0000076293945, y: 0.9012363, z: 0.04829983}
---- !u!65 &7530123542809069067
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1659981132745429873}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.3387516, y: 1.8058414, z: 2.9181228}
-  m_Center: {x: 0.6176727, y: 0.9012363, z: 0.95906174}
---- !u!114 &7173861294464439355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1659981132745429873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91107fc49ccc49ab92c14dd96c60cd44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MissionNoCompletedEvent: {fileID: 11400000, guid: 4ba10b156b6a7401eab5413b9ccf9b66, type: 2}
-  m_MissionCompletedEvent: {fileID: 11400000, guid: 6ec5aa1df4b5e40f88a9a85e3c9a0bb5, type: 2}
-  m_TriggerCollider: {fileID: 7530123542809069067}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3716640957354861583, guid: 9ed214f4beb7ab34bb0cd4b56b5a54cc, type: 3}

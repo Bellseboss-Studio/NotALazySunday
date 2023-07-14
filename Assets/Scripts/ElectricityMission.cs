@@ -8,10 +8,10 @@ public class ElectricityMission : Mission
 
         if (!m_IsThisMissionComplete)
         {
-            m_MissionNoCompletedEvent.Occurred();
+           m_MissionNoCompletedEvent.Occurred();
+           return;
         }
         
-        Debug.Log("AHAAAAAAA!");
         
         if (m_MissionCompletedEvent != null)
         {

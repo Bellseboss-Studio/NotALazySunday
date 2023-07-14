@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4301415361633610844
+--- !u!1 &7028636050478583864
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,50 +8,49 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3529241937299388134}
-  - component: {fileID: 528532226974628163}
-  - component: {fileID: 2355749891176385929}
-  - component: {fileID: 4676990571437819567}
-  - component: {fileID: 4838202020346617778}
-  - component: {fileID: 108214305620145106}
-  - component: {fileID: 5980443694847227388}
+  - component: {fileID: 7028636050478583859}
+  - component: {fileID: 7028636050478583868}
+  - component: {fileID: 7028636050478583869}
+  - component: {fileID: 7028636050478583870}
+  - component: {fileID: 7028636050478583871}
+  - component: {fileID: 7028636050478583858}
   m_Layer: 0
-  m_Name: SM_fence_02_A
+  m_Name: Mission_1_Electricity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3529241937299388134
+--- !u!4 &7028636050478583859
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4301415361633610844}
+  m_GameObject: {fileID: 7028636050478583864}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -20.359, y: 4.286, z: 26.396}
+  m_LocalScale: {x: 2.36, y: 3.1466668, z: 2.36}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &528532226974628163
+--- !u!33 &7028636050478583868
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4301415361633610844}
-  m_Mesh: {fileID: -6779795657539536141, guid: 9017f3f177e8903438e93ed2f65f3ef4, type: 3}
---- !u!23 &2355749891176385929
+  m_GameObject: {fileID: 7028636050478583864}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &7028636050478583869
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4301415361633610844}
+  m_GameObject: {fileID: 7028636050478583864}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -65,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a7e7e45efba66a546a27014f9d383832, type: 2}
+  - {fileID: 2100000, guid: b74683a20a3fc46ffa4979d36ca407f7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -87,65 +86,59 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4676990571437819567
+--- !u!65 &7028636050478583870
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4301415361633610844}
+  m_GameObject: {fileID: 7028636050478583864}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000002, y: 1.9425467, z: 0.06340291}
-  m_Center: {x: 0.5000011, y: 0.971273, z: 0.012238684}
---- !u!95 &4838202020346617778
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4301415361633610844}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 78d517e3ee73245489002045d3b996ad, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &108214305620145106
+  m_Size: {x: 1, y: 0.99999994, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7028636050478583871
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4301415361633610844}
+  m_GameObject: {fileID: 7028636050478583864}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e38c190da0ce4a588e26fec3800afb8d, type: 3}
+  m_Script: {fileID: 11500000, guid: 6e1c483556174db599eaeb4946b55bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Anim: {fileID: 4838202020346617778}
-  m_HoldOpenTime: 4
-  speed: 0.5
---- !u!65 &5980443694847227388
-BoxCollider:
+  m_MissionNoCompletedEvent: {fileID: 11400000, guid: 643baae9cad1e440bad8cd47896a1a18, type: 2}
+  m_MissionCompletedEvent: {fileID: 11400000, guid: f8a089a49530f4a55a409cf5ba72ea34, type: 2}
+  m_TriggerCollider: {fileID: 7028636050478583870}
+--- !u!114 &7028636050478583858
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4301415361633610844}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_GameObject: {fileID: 7028636050478583864}
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.18, y: 1.96, z: 1.58}
-  m_Center: {x: 0.5000011, y: 0.971273, z: 0.012238684}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00cd0a085d8b42a090f9c8c080b1b9d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameEvent: {fileID: 11400000, guid: 9c3415d2a3383484cbe1b839f6dab4d8, type: 2}
+  m_Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7028636050478583871}
+        m_TargetAssemblyTypeName: Mission, Assembly-CSharp
+        m_MethodName: set_IsMissionCompleted
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2

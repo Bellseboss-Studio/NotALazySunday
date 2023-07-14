@@ -14,6 +14,7 @@ public class Mission : Interactable
     private bool m_IsPreviousMissionComplete = false;
     protected bool m_IsThisMissionComplete = false;
     
+    
     private void Start()
     {
         CheckDependencies();
