@@ -112,8 +112,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff904569a634464987117b8a8ceac12d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MissionNoCompletedEvent: {fileID: 0}
-  m_MissionCompletedEvent: {fileID: 11400000, guid: c471cf4643f4440aaa3a0696291450c1, type: 2}
+  m_MissionNoCompletedEvent: {fileID: 11400000, guid: 21d411185df8c45f48e435aa05d01993, type: 2}
+  m_MissionCompletedEvent: {fileID: 11400000, guid: e7447d015a1ff40a9b7d2f5c3c27481c, type: 2}
   m_TriggerCollider: {fileID: 1109535330813337033}
 --- !u!114 &8627033527347889948
 MonoBehaviour:
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00cd0a085d8b42a090f9c8c080b1b9d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_GameEvent: {fileID: 11400000, guid: ccc1c4cefeece4857a4465c62bdfa1c7, type: 2}
+  m_GameEvent: {fileID: 11400000, guid: 7a213737ee81d4de789816094d0b24ed, type: 2}
   m_Response:
     m_PersistentCalls:
       m_Calls:

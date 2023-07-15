@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 9073619654042946143}
   - component: {fileID: 7530123542809069067}
   - component: {fileID: 7173861294464439355}
+  - component: {fileID: 893420906800531546}
   m_Layer: 0
   m_Name: SM_ATM
   m_TagString: Untagged
@@ -127,3 +128,31 @@ MonoBehaviour:
   m_MissionNoCompletedEvent: {fileID: 11400000, guid: 4ba10b156b6a7401eab5413b9ccf9b66, type: 2}
   m_MissionCompletedEvent: {fileID: 11400000, guid: 6ec5aa1df4b5e40f88a9a85e3c9a0bb5, type: 2}
   m_TriggerCollider: {fileID: 7530123542809069067}
+--- !u!114 &893420906800531546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659981132745429873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00cd0a085d8b42a090f9c8c080b1b9d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameEvent: {fileID: 11400000, guid: e7447d015a1ff40a9b7d2f5c3c27481c, type: 2}
+  m_Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7173861294464439355}
+        m_TargetAssemblyTypeName: Mission, Assembly-CSharp
+        m_MethodName: set_IsMissionCompleted
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2

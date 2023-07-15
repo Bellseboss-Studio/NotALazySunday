@@ -1,10 +1,14 @@
+
+using UnityEngine;
+
 public class LakeMission : Mission
 {
     protected override void PerformInteraction()
     {
         if (m_IsThisMissionComplete)
         {
-            //m_MissionCompletedEvent.Occurred();
+            m_MissionCompletedEvent.Occurred();
+            gameObject.GetComponent<LakeMission>().enabled = false;
         }
         else
         {
