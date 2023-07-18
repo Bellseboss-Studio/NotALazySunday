@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7611698084922302976}
   - component: {fileID: 6777341849945222565}
   - component: {fileID: 8784556709001517423}
-  - component: {fileID: -6535905749640867713}
   m_Layer: 0
   m_Name: SM_street_coffee_shop
   m_TagString: Untagged
@@ -85,17 +84,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-6535905749640867713
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7127509055121193146}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6988981311882337929, guid: b893b0c49bb8d5245a5016536e87139f, type: 3}

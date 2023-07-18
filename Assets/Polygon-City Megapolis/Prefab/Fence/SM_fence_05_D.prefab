@@ -94,7 +94,6 @@ GameObject:
   - component: {fileID: 8432405161574251486}
   - component: {fileID: 4803705021558600827}
   - component: {fileID: 7299990908921069745}
-  - component: {fileID: 3988376576559434602}
   - component: {fileID: 6118926125590316645}
   m_Layer: 0
   m_Name: SM_fence_05_D
@@ -169,20 +168,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3988376576559434602
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9101277308433326436}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1367494779146345996, guid: d6da41095d6efbd49aabb89d237e3cae, type: 3}
 --- !u!65 &6118926125590316645
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1030678091709611200}
   - component: {fileID: 4171019170754851685}
   - component: {fileID: 2163584483192670127}
-  - component: {fileID: -7153145330059948145}
   - component: {fileID: 6790576063144225978}
   m_Layer: 0
   m_Name: SM_road_lantern_01
@@ -86,20 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-7153145330059948145
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 362087801544550010}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2413229362052609611, guid: ce2638b989e23bc4aada74bbfb933721, type: 3}
 --- !u!65 &6790576063144225978
 BoxCollider:
   m_ObjectHideFlags: 0

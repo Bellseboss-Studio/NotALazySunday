@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8371241859121304478}
   - component: {fileID: 4864867861497207867}
   - component: {fileID: 7234906093691971825}
-  - component: {fileID: 1139049872617333799}
   - component: {fileID: 4543149696218073013}
   m_Layer: 0
   m_Name: SM_cinder_block_02
@@ -85,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1139049872617333799
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9180430278034589988}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8789523072770238943, guid: d8f51701a6f113f4e9f4f404f4c2ad16, type: 3}
 --- !u!65 &4543149696218073013
 BoxCollider:
   m_ObjectHideFlags: 0

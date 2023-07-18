@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7210098776098203303}
   - component: {fileID: 6026011153866483970}
   - component: {fileID: 8377898715755584968}
-  - component: {fileID: 2881677860027327762}
   - component: {fileID: 5515783303587142249}
   m_Layer: 0
   m_Name: SM_traffic_cone_04
@@ -85,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2881677860027327762
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8017737807034301469}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3400780587299884056, guid: e3870b5018f186d47b31ccb72d7cbd50, type: 3}
 --- !u!65 &5515783303587142249
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1892714490920892702}
   - component: {fileID: 3308912453816809147}
   - component: {fileID: 724913588922024561}
-  - component: {fileID: 8898170181816946898}
   - component: {fileID: 1522513040019775190}
   m_Layer: 0
   m_Name: SM_small_tree_02
@@ -85,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8898170181816946898
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1229365470195524516}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2352223904908092072, guid: d9e365030375a284bbb3017ca397c2f9, type: 3}
 --- !u!65 &1522513040019775190
 BoxCollider:
   m_ObjectHideFlags: 0

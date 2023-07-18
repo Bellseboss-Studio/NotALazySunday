@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7320201668007673760}
   - component: {fileID: 5924853883764387845}
   - component: {fileID: 8493147326377772239}
-  - component: {fileID: 7924462568146683340}
   m_Layer: 0
   m_Name: SM_fence_06
   m_TagString: Untagged
@@ -84,17 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7924462568146683340
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7988616143418025242}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -866929634155254790, guid: 09b79d02d4534454c87c26f570796880, type: 3}

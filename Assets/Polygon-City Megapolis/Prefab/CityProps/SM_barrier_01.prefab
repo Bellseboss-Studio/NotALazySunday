@@ -11,10 +11,6 @@ GameObject:
   - component: {fileID: 3713329784265600094}
   - component: {fileID: 299417179018257403}
   - component: {fileID: 2576983811042088753}
-  - component: {fileID: -8670576959162056668}
-  - component: {fileID: 239844299796951121}
-  - component: {fileID: 5161696451218334855}
-  - component: {fileID: 4956131074950932972}
   m_Layer: 0
   m_Name: SM_barrier_01
   m_TagString: Untagged
@@ -88,76 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-8670576959162056668
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4090312376534382308}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1533989828117274957, guid: 4c6113b13826573458848c49cf670dbd, type: 3}
---- !u!65 &239844299796951121
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4090312376534382308}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.29360184, y: 0.7669868, z: 0.19691983}
-  m_Center: {x: -0.000001870096, y: 0.38349363, z: -0.0000009536743}
---- !u!114 &5161696451218334855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4090312376534382308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a805eb9021b444cd9455330f7c0a71d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MissionNoCompletedEvent: {fileID: 11400000, guid: b5e04d8460c824abb9fb3228ea3fa3d2, type: 2}
-  m_MissionCompletedEvent: {fileID: 11400000, guid: af926c637e03a4d7da1359a6f6e5e079, type: 2}
-  m_TriggerCollider: {fileID: 239844299796951121}
---- !u!114 &4956131074950932972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4090312376534382308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00cd0a085d8b42a090f9c8c080b1b9d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_GameEvent: {fileID: 11400000, guid: db9321121508d477c903d0c4463ee5fd, type: 2}
-  m_Response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5161696451218334855}
-        m_TargetAssemblyTypeName: Mission, Assembly-CSharp
-        m_MethodName: set_IsMissionCompleted
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!1 &7189595448276686901
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,10 +95,7 @@ GameObject:
   - component: {fileID: 5762816618607847213}
   - component: {fileID: 8386257314925451256}
   - component: {fileID: 3491426941967690317}
-  - component: {fileID: 6848713313015434191}
   - component: {fileID: 4083076705430125726}
-  - component: {fileID: 8292133099813071501}
-  - component: {fileID: 1111858315639206283}
   m_Layer: 0
   m_Name: barrier_A
   m_TagString: Untagged
@@ -245,20 +168,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6848713313015434191
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7189595448276686901}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 981865366897061269, guid: 4c6113b13826573458848c49cf670dbd, type: 3}
 --- !u!65 &4083076705430125726
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -272,48 +181,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.1436121, y: 0.16165419, z: 0.059010524}
   m_Center: {x: -1.0000001, y: 0.000000033527616, z: 0.029505739}
---- !u!114 &8292133099813071501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7189595448276686901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 265cbd8e7e666450f8588dd39cbc7f15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RotationAxis: 2
-  m_Transform: {fileID: 0}
-  m_Speed: -10
-  m_Loop: 0
-  m_Length: 3
---- !u!114 &1111858315639206283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7189595448276686901}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00cd0a085d8b42a090f9c8c080b1b9d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_GameEvent: {fileID: 11400000, guid: af926c637e03a4d7da1359a6f6e5e079, type: 2}
-  m_Response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8292133099813071501}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
