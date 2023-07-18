@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2036366620872673739}
   - component: {fileID: 3165321569058358894}
   - component: {fileID: 867378865864700580}
-  - component: {fileID: 5267705342872270117}
   - component: {fileID: 9073619654042946143}
   m_Layer: 0
   m_Name: SM_ATM
@@ -85,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5267705342872270117
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1659981132745429873}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5283176134434784156, guid: ad79d805e8e0ba642805f5cd6aee0794, type: 3}
 --- !u!65 &9073619654042946143
 BoxCollider:
   m_ObjectHideFlags: 0
