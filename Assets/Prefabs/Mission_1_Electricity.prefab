@@ -111,6 +111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e1c483556174db599eaeb4946b55bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_ShowOptionToInteract: 1
+  m_ShowOptionToInteractEvent: {fileID: 11400000, guid: 17774015db27548708af19c083d92bc7, type: 2}
   m_MissionNoCompletedEvent: {fileID: 11400000, guid: 643baae9cad1e440bad8cd47896a1a18, type: 2}
   m_MissionCompletedEvent: {fileID: 11400000, guid: f8a089a49530f4a55a409cf5ba72ea34, type: 2}
   m_TriggerCollider: {fileID: 7028636050478583870}

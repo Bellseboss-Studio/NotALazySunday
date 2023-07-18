@@ -1,16 +1,14 @@
-using System;
-using System.Collections;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 [System.Serializable]
 [RequireComponent(typeof(BoxCollider))]
-public class Mission : Interactable
+public abstract class Mission : Interactable
 {
     [SerializeField] protected Event m_MissionNoCompletedEvent;
     [SerializeField] protected Event m_MissionCompletedEvent;
     
-    [SerializeField] private BoxCollider m_TriggerCollider;
+    [SerializeField] protected BoxCollider m_TriggerCollider;
+
     private bool m_IsPreviousMissionComplete = false;
     protected bool m_IsThisMissionComplete = false;
     
@@ -34,9 +32,9 @@ public class Mission : Interactable
             m_MissionNoCompletedEvent.Occurred();
         }
     }
-       
 
-    private void CheckDependencies()
+
+    protected virtual void CheckDependencies()
     {
         if (!m_TriggerCollider)
         {

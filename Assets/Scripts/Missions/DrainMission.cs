@@ -4,7 +4,6 @@ public class DrainMission : Mission
 {
     [SerializeField] private Animator m_Animator;
     private static readonly int DrainLake = Animator.StringToHash("DrainLake");
-    private BoxCollider m_TriggerCollider;
     private void Start()
     {
         CheckDependencies();
@@ -14,7 +13,6 @@ public class DrainMission : Mission
         if (m_IsThisMissionComplete)
         {
             m_MissionCompletedEvent.Occurred();
-            //m_Animator.SetTrigger(DrainLake);
             m_TriggerCollider.enabled = false;
         }
         else
@@ -25,7 +23,7 @@ public class DrainMission : Mission
     }
 
 
-    private void CheckDependencies()
+    protected override void CheckDependencies()
     {
        if(!m_Animator)
        {
