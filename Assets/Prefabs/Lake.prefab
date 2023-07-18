@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 1928911746625953328}
   - component: {fileID: 1928911746625953329}
   - component: {fileID: 1928911746625953331}
-  - component: {fileID: 1050784067267904361}
   - component: {fileID: 6972586686017661339}
   - component: {fileID: 986165007133112319}
   - component: {fileID: 3069765650294277770}
+  - component: {fileID: 1936638179932071139}
   m_Layer: 0
   m_Name: Lake
   m_TagString: Untagged
@@ -30,9 +30,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928911746625953324}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -12.190901, y: 2.82, z: -8.347601}
-  m_LocalScale: {x: 4.295536, y: 0.3, z: 4.2638807}
+  m_LocalScale: {x: 6.443304, y: 0.45000002, z: 6.395821}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -101,27 +101,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4, y: 0.09799999, z: 4}
   m_Center: {x: -0.0000009536743, y: -0.0020244177, z: -0.00000023841858}
---- !u!95 &1050784067267904361
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1928911746625953324}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7035bdcfa66fd4ac0b8b802472c9ba35, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!65 &6972586686017661339
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -133,7 +112,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4, y: 14.75, z: 4}
+  m_Size: {x: 4, y: 30.8, z: 4}
   m_Center: {x: -0.0000010728836, y: -0.0020242091, z: 0.00000023841858}
 --- !u!114 &986165007133112319
 MonoBehaviour:
@@ -150,7 +129,7 @@ MonoBehaviour:
   m_MissionNoCompletedEvent: {fileID: 11400000, guid: 21d411185df8c45f48e435aa05d01993, type: 2}
   m_MissionCompletedEvent: {fileID: 11400000, guid: ccc1c4cefeece4857a4465c62bdfa1c7, type: 2}
   m_TriggerCollider: {fileID: 6972586686017661339}
-  m_Animator: {fileID: 1050784067267904361}
+  m_Animator: {fileID: 1936638179932071139}
 --- !u!114 &3069765650294277770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,3 +158,36 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1936638179932071139}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: DrainLake
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!95 &1936638179932071139
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928911746625953324}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7035bdcfa66fd4ac0b8b802472c9ba35, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

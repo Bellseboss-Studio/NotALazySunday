@@ -1,6 +1,17 @@
 using System.Collections;
 using UnityEngine;
+
+
+// public enum TypeOfDoor
+// {
+//     SingleDoorOutwards, 
+//     SingleDoorInwards,
+//     SingleSlidingDoor,
+//     DoubleSlidingDoor
+// }
+
 [RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(BoxCollider))]
 public class DoorInteraction : Interactable
 {
     [SerializeField] private Animator m_Animator;

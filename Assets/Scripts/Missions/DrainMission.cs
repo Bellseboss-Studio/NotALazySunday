@@ -14,7 +14,7 @@ public class DrainMission : Mission
         if (m_IsThisMissionComplete)
         {
             m_MissionCompletedEvent.Occurred();
-            m_Animator.SetTrigger(DrainLake);
+            //m_Animator.SetTrigger(DrainLake);
             m_TriggerCollider.enabled = false;
         }
         else
