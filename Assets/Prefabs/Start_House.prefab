@@ -99,6 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e38c190da0ce4a588e26fec3800afb8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_ShowOptionToInteract: 1
+  m_ShowOptionToInteractEvent: {fileID: 11400000, guid: 17774015db27548708af19c083d92bc7, type: 2}
   m_Animator: {fileID: 7762835748685861585}
   m_HoldOpenTime: 4
   m_Speed: 1

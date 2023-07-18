@@ -11,6 +11,13 @@ GameObject:
   - component: {fileID: 4532909393721803541}
   - component: {fileID: 668778525366340784}
   - component: {fileID: 3360544931533699194}
+  - component: {fileID: 8148204100821738875}
+  - component: {fileID: 9052023411486476617}
+  - component: {fileID: 5933973577424395667}
+  - component: {fileID: 4931058980952468333}
+  - component: {fileID: 4325408124730906371}
+  - component: {fileID: 2955951105213641995}
+  - component: {fileID: 6996249491034232351}
   m_Layer: 0
   m_Name: SM_Balloon_01
   m_TagString: Untagged
@@ -83,3 +90,113 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8148204100821738875
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3865198709354633647}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.7808957, y: 10.72, z: 5.749228}
+  m_Center: {x: 0, y: 5.815819, z: -0.031757116}
+--- !u!65 &9052023411486476617
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3865198709354633647}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8, y: 0.39, z: 1.8}
+  m_Center: {x: 0, y: 0.38, z: 0}
+--- !u!65 &5933973577424395667
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3865198709354633647}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: -1.48, z: -0.12}
+  m_Center: {x: 0.03, y: 1.33, z: -0.98}
+--- !u!65 &4931058980952468333
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3865198709354633647}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: -0.16, y: -1.48, z: 1.71}
+  m_Center: {x: -0.96, y: 1.33, z: -0.031757116}
+--- !u!65 &4325408124730906371
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3865198709354633647}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: -0.16, y: -1.48, z: 1.71}
+  m_Center: {x: 0.95, y: 1.33, z: -0.031757116}
+--- !u!114 &2955951105213641995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3865198709354633647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff619b097d50496da79e018aeb431bd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowOptionToInteract: 0
+  m_ShowOptionToInteractEvent: {fileID: 11400000, guid: 17774015db27548708af19c083d92bc7, type: 2}
+  m_MissionNoCompletedEvent: {fileID: 11400000, guid: c14a9efb0e4fa407b8c579a1ad69849e, type: 2}
+  m_MissionCompletedEvent: {fileID: 11400000, guid: be7d6144442bc4641b654c669e71f1b9, type: 2}
+  m_TriggerCollider: {fileID: 8148204100821738875}
+--- !u!114 &6996249491034232351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3865198709354633647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00cd0a085d8b42a090f9c8c080b1b9d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameEvent: {fileID: 11400000, guid: f8a089a49530f4a55a409cf5ba72ea34, type: 2}
+  m_Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2955951105213641995}
+        m_TargetAssemblyTypeName: Mission, Assembly-CSharp
+        m_MethodName: set_IsMissionCompleted
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
