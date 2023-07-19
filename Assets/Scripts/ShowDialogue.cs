@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class ShowDialogue : MonoBehaviour
 {
-   
-    void Start()
+    [SerializeField] private Event m_CloseOtherDialogue;
+    [SerializeField] private bool m_ClearUIOnEnable;
+    [SerializeField] private float m_Length = 5;
+    void OnEnable()
     {
         StartCoroutine(ActivateDialoguePopup());
     }
@@ -13,7 +15,11 @@ public class ShowDialogue : MonoBehaviour
 
     IEnumerator ActivateDialoguePopup()
     {
-        yield return new WaitForSeconds(5);
+        if (m_ClearUIOnEnable)
+        {
+            m_CloseOtherDialogue.Occurred();
+        }
+        yield return new WaitForSeconds(m_Length);
         gameObject.SetActive(false);
     }
 }

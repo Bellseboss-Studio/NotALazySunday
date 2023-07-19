@@ -3,7 +3,8 @@ guid: 40a700741d110415cad692429b3a3486
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - m_ShowOptionToInteractEvent: {fileID: 11400000, guid: 17774015db27548708af19c083d92bc7, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

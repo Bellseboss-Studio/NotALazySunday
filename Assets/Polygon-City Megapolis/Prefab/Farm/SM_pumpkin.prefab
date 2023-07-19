@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3605968190163344643}
   - component: {fileID: 1135617173188256561}
   - component: {fileID: 2744546707698711819}
+  - component: {fileID: 7624799425033315844}
   m_Layer: 0
   m_Name: SM_pumpkin
   m_TagString: Untagged
@@ -98,6 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e038283b9a544eabb79b8496ea5edfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_ShowOptionToInteract: 1
+  m_ShowOptionToInteractEvent: {fileID: 11400000, guid: 17774015db27548708af19c083d92bc7, type: 2}
   m_Grow: {fileID: 7400000, guid: 3c91c8075fbe24b2dbe8081524bea2cb, type: 2}
 --- !u!95 &1135617173188256561
 Animator:
@@ -133,3 +136,16 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.19359279
   m_Center: {x: -0.000000037252903, y: 0.042938896, z: 0.0000009753862}
+--- !u!65 &7624799425033315844
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2323837142560514251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.57, y: 1.17, z: 0.72}
+  m_Center: {x: 0.0000009164214, y: 0.042939015, z: -0.0000018849969}

@@ -4,11 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Interactable : MonoBehaviour
+public abstract class Interactable : MonoBehaviour
 {
     private bool m_isOverlapped;
     private bool m_HasCliked;
-    
+    public bool m_ShowOptionToInteract;
+    public Event m_ShowOptionToInteractEvent;
     
     
     protected virtual void OnTriggerEnter(Collider other)
@@ -16,7 +17,11 @@ public class Interactable : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             m_isOverlapped = true;
-            Debug.Log(other.name + " is in");
+            if (m_ShowOptionToInteract)
+            {
+                m_ShowOptionToInteractEvent.Occurred();
+                m_ShowOptionToInteract = false;
+            }
         }
     }
 

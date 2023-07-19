@@ -1,11 +1,29 @@
 using System.Collections;
 using UnityEngine;
+
+
+// public enum TypeOfDoor
+// {
+//     SingleDoorOutwards, 
+//     SingleDoorInwards,
+//     SingleSlidingDoor,
+//     DoubleSlidingDoor
+// }
+
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(BoxCollider))]
 public class DoorInteraction : Interactable
 {
-    [SerializeField] private Animator m_Anim;
+    [SerializeField] private Animator m_Animator;
     [SerializeField] private float m_HoldOpenTime = 4f;
-    private static readonly int m_OpenDoor = Animator.StringToHash("OpenDoor");
-    private static readonly int m_CloseDoor = Animator.StringToHash("CloseDoor");
+    [SerializeField] private float m_Speed = 1;
+    [SerializeField] private bool m_OpenOutwards =  false;
+    private static readonly int m_OpenDoorInwards = Animator.StringToHash("OpenDoorInwards");
+    private static readonly int m_CloseDoorInwards = Animator.StringToHash("CloseDoorInwards");
+    private static readonly int m_OpenDoorOutwards = Animator.StringToHash("OpenDoorOutwards");
+    private static readonly int m_CloseDoorDoorOutwards = Animator.StringToHash("CloseDoorOutwards");
+    private int idOpen;
+    private int idClose;
 
     private void Start()
     {
@@ -28,18 +46,28 @@ public class DoorInteraction : Interactable
 
     IEnumerator OpeningDoorSequence()
     {
-        m_Anim.SetTrigger(m_OpenDoor);
+        if (m_OpenOutwards)
+        {
+            idOpen = m_OpenDoorOutwards;
+            idClose = m_CloseDoorDoorOutwards;
+        }
+        
+        m_Animator.speed = m_Speed;
+        m_Animator.SetTrigger(idOpen);
         yield return new WaitForSeconds(m_HoldOpenTime);
-        m_Anim.SetTrigger(m_CloseDoor);
+        m_Animator.SetTrigger(idClose);
         yield return null;
     }
 
     private void CheckDependencies()
     {
-        if (!m_Anim)
+        if (!m_Animator)
         {
-            m_Anim = GetComponent<Animator>();
+            m_Animator = GetComponent<Animator>();
         }
+
+        idOpen = m_OpenDoorInwards;
+        idClose = m_CloseDoorInwards;
     }
         
 }

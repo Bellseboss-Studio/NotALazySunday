@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4195769312818068367}
   - component: {fileID: 978836245126738986}
   - component: {fileID: 3058350043239973088}
+  - component: {fileID: 6187478781432092866}
   m_Layer: 0
   m_Name: SM_small_tree_05
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6187478781432092866
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3562784194166858037}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 3, z: 0.2}
+  m_Center: {x: -0.1, y: 1, z: 0}
