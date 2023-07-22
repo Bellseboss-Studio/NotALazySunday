@@ -7,6 +7,7 @@ public class RaycastToPhysicMaterial : MonoBehaviour
     [SerializeField] private float m_Range = 5;
     [SerializeField] private Vector3 m_Direction;
     public float m_Hit;
+    public PhysicMaterial m_Mat;
     
     public float DetectSurface()
     {
@@ -17,6 +18,7 @@ public class RaycastToPhysicMaterial : MonoBehaviour
         if (Physics.Raycast(theRay, out RaycastHit hit, m_Range))
         {
             m_Hit = hit.textureCoord.x;
+            m_Mat = hit.collider.material;
         }
 
         return (float)Math.Round(m_Hit,2);

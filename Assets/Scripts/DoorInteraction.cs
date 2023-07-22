@@ -1,4 +1,5 @@
 using System.Collections;
+using GameAudio;
 using UnityEngine;
 
 
@@ -25,6 +26,9 @@ public class DoorInteraction : Interactable
     private int idOpen;
     private int idClose;
 
+    [SerializeField] private RandomAudioPlayer m_OpenSound;
+    [SerializeField] private RandomAudioPlayer m_CloseSound;
+    [SerializeField] private RandomAudioPlayer m_DriveSound;
     private void Start()
     {
         CheckDependencies();
@@ -54,8 +58,16 @@ public class DoorInteraction : Interactable
         
         m_Animator.speed = m_Speed;
         m_Animator.SetTrigger(idOpen);
+        if (m_DriveSound)
+        {
+            PlayDoorRotationSound(); 
+        }
         yield return new WaitForSeconds(m_HoldOpenTime);
         m_Animator.SetTrigger(idClose);
+        if (m_DriveSound)
+        {
+            PlayDoorRotationSound(); 
+        }
         yield return null;
     }
 
@@ -69,5 +81,21 @@ public class DoorInteraction : Interactable
         idOpen = m_OpenDoorInwards;
         idClose = m_CloseDoorInwards;
     }
+
+    public void PlayOpenSound()
+    {
+        StartCoroutine(m_OpenSound.PlayAudioClip());
+    }
+
+    public void PlayCloseSound()
+    {
+        StartCoroutine(m_CloseSound.PlayAudioClip());
+    }
+
+    public void PlayDoorRotationSound()
+    {
+        StartCoroutine(m_DriveSound.PlayAudioClip());
+    }
+        
         
 }

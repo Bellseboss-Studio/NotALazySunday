@@ -10,8 +10,7 @@ public abstract class Interactable : MonoBehaviour
     private bool m_HasCliked;
     public bool m_ShowOptionToInteract;
     public Event m_ShowOptionToInteractEvent;
-    
-    
+
     protected virtual void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player"))
