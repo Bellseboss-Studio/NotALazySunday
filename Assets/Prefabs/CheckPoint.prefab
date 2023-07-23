@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3103541849908477480}
   - component: {fileID: 4998085719128061552}
   - component: {fileID: 7192760882566068567}
+  - component: {fileID: 8248815263653181265}
   m_Layer: 0
   m_Name: CheckPoint
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428287257972739002}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 53.45, y: -1.7351162, z: 18.611364}
   m_LocalScale: {x: 1.77, y: 1.77, z: 1.77}
   m_ConstrainProportionsScale: 1
@@ -127,7 +128,7 @@ BoxCollider:
   m_GameObject: {fileID: 1428287257972739002}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 2.39, y: 1.45, z: 0.65}
   m_Center: {x: -0.91, y: 0.78, z: 0}
@@ -150,6 +151,34 @@ MonoBehaviour:
       - m_Target: {fileID: 3103541849908477480}
         m_TargetAssemblyTypeName: Mission, Assembly-CSharp
         m_MethodName: set_IsMissionCompleted
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &8248815263653181265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428287257972739002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00cd0a085d8b42a090f9c8c080b1b9d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameEvent: {fileID: 11400000, guid: 9f87d0c3dde864307b3547c433c8c4c8, type: 2}
+  m_Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4998085719128061552}
+        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

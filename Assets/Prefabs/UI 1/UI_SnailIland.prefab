@@ -33,7 +33,7 @@ RectTransform:
   - {fileID: 8409337727215343918}
   - {fileID: 7998935964808735771}
   m_Father: {fileID: 7011006426285227071}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -569,10 +569,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Slowly but surely. . . OH MY GOOOOD . . . look af this treasure!
-
-    They''ll
-    give me good money at the bank for that. '
+  m_text: "Slowly but surely. . .  all my life savings on this treasure. \nThey'll
+    give me good money at the bank for it. \nIt should be enough to fund my adventure,
+    after I pay for the gas. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -924,7 +923,7 @@ GameObject:
   - component: {fileID: 7052908650500991688}
   - component: {fileID: 1740490284201293726}
   m_Layer: 5
-  m_Name: Mission_11_Balloon
+  m_Name: Mission_00_Balloon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -945,7 +944,7 @@ RectTransform:
   - {fileID: 7564206110552371420}
   - {fileID: 670113581533893695}
   m_Father: {fileID: 7011006426285227071}
-  m_RootOrder: 11
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1505,7 +1504,7 @@ RectTransform:
   - {fileID: 2473002047864259570}
   - {fileID: 2016155960290164524}
   m_Father: {fileID: 7011006426285227071}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1635,7 +1634,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'I wish I could go and travel on this balloon. '
+  m_text: 'I wish I could go and travel on this balloon today.
+
+    But I need to
+    make sure everything is all right at home before I leave.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2546,7 +2548,7 @@ RectTransform:
   - {fileID: 395827893677696912}
   - {fileID: 758313106910533942}
   m_Father: {fileID: 7011006426285227071}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2745,7 +2747,7 @@ RectTransform:
   m_Children:
   - {fileID: 3382769071394812544}
   m_Father: {fileID: 7011006426285227071}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2841,7 +2843,7 @@ RectTransform:
   - {fileID: 7011006425287396323}
   - {fileID: 7011006425012871848}
   m_Father: {fileID: 7011006426285227071}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2971,7 +2973,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "WTF? No balance? This is ridiculous . . .  \nIGood thing I hid some treasure
+  m_text: "WTF? No balance? This is ridiculous . . .  \nGood thing I hid some treasure
     in the lake, though.\nMaybe I can exchange the treasure for money here. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3123,8 +3125,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Stupid thing. I forgot to put gasoline . . .\nMaybe, I can get some gas
-    at the barn. \nOh, I really like that building's \x03red roof and doors. "
+  m_text: "Stupid old piece of junk. I forgot to put gasoline . . .\nMaybe, I can
+    borrow some from the farmer's tractor. \nIt's just outside the city, I can use
+    the map [M] to find it. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3543,7 +3546,7 @@ RectTransform:
   - {fileID: 7011006426436374733}
   - {fileID: 7011006425576075293}
   m_Father: {fileID: 7011006426285227071}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3791,7 +3794,7 @@ RectTransform:
   - {fileID: 7011006425041019501}
   - {fileID: 7011006424961996599}
   m_Father: {fileID: 7011006426285227071}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4050,8 +4053,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Damn! It's my day off from the plant, \nthe fan doesn't work, and no electricity!
-    \nI'll try to fire up the power generator."
+  m_text: "Damn! It's my day off from the plant, \nand have no electricity for the
+    AC or the fridge!\nI'll try to fire up the power generator."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4494,6 +4497,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 6027321273732612371}
   - {fileID: 7011006425265348637}
   - {fileID: 7011006424604478244}
   - {fileID: 7011006426449492130}
@@ -4505,7 +4509,6 @@ RectTransform:
   - {fileID: 1804032550322667088}
   - {fileID: 1454101463264326037}
   - {fileID: 3203178962474989604}
-  - {fileID: 6027321273732612371}
   m_Father: {fileID: 7011006425859420836}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4698,7 +4701,7 @@ RectTransform:
   - {fileID: 7011006425192013688}
   - {fileID: 7011006425770064949}
   m_Father: {fileID: 7011006426285227071}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4943,7 +4946,7 @@ RectTransform:
   m_Children:
   - {fileID: 4576860980254283955}
   m_Father: {fileID: 7011006426285227071}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5312,7 +5315,7 @@ RectTransform:
   m_Children:
   - {fileID: 3963735979890020739}
   m_Father: {fileID: 7011006426285227071}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5380,7 +5383,7 @@ RectTransform:
   - {fileID: 4214425063559157668}
   - {fileID: 3077767300512356777}
   m_Father: {fileID: 7011006426285227071}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

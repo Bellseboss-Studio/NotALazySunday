@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7530123542809069067}
   - component: {fileID: 7173861294464439355}
   - component: {fileID: 893420906800531546}
+  - component: {fileID: 184196714713600473}
   m_Layer: 0
   m_Name: SM_ATM
   m_TagString: Untagged
@@ -109,7 +110,7 @@ BoxCollider:
   m_GameObject: {fileID: 1659981132745429873}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 3.3387516, y: 1.8058414, z: 2.9181228}
   m_Center: {x: 0.6176727, y: 0.9012363, z: 0.95906174}
@@ -149,6 +150,34 @@ MonoBehaviour:
       - m_Target: {fileID: 7173861294464439355}
         m_TargetAssemblyTypeName: Mission, Assembly-CSharp
         m_MethodName: set_IsMissionCompleted
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &184196714713600473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659981132745429873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00cd0a085d8b42a090f9c8c080b1b9d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameEvent: {fileID: 11400000, guid: 3b6eeb80e050a4742b9d585b5d0f8d7f, type: 2}
+  m_Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7530123542809069067}
+        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
