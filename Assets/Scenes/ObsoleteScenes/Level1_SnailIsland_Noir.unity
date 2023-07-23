@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.09674972, g: 0.35171852, b: 0.7160277, a: 1}
+  m_IndirectSpecularColor: {r: 0.09668005, g: 0.35154548, b: 0.71562964, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14164,11 +14164,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2259715771211774266, guid: 1f7546261459e114e923906e0a45cab7, type: 3}
   m_PrefabInstance: {fileID: 422197281}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &422490479 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 556783526389283293, guid: 54592088ed8315f48a71f5cecdb49d9b, type: 3}
-  m_PrefabInstance: {fileID: 698198954}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &422879650 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5928754900959185427, guid: e47ef2c87945ca8479e9bd22ad145c86, type: 3}
@@ -17923,7 +17918,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 85f28f692e13e2a46b7886a49e152714, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -5626744939301622326, guid: 72c78ce3c437b6146a8939d3c0881f50, type: 3}
+      objectReference: {fileID: 2100000, guid: 1cd675e34b7144e3d8b7bd6a3770d34b, type: 2}
     - target: {fileID: 919132149155446097, guid: 85f28f692e13e2a46b7886a49e152714, type: 3}
       propertyPath: m_Name
       value: barrera_de_piedra_gigante 1
@@ -32849,6 +32844,7 @@ Transform:
   - {fileID: 1519589495}
   - {fileID: 1425410502}
   - {fileID: 521720418}
+  - {fileID: 655427997126987709}
   - {fileID: 1084713684}
   - {fileID: 262794333}
   - {fileID: 1312060043}
@@ -32909,7 +32905,6 @@ Transform:
   - {fileID: 1541076966}
   - {fileID: 1845012158}
   - {fileID: 1314509910}
-  - {fileID: 655427997126987709}
   - {fileID: 2083796882}
   - {fileID: 1564756711}
   - {fileID: 1069500040}
@@ -45183,7 +45178,6 @@ Transform:
   - {fileID: 1968023409}
   - {fileID: 547546019}
   - {fileID: 1026039275}
-  - {fileID: 422490479}
   - {fileID: 225122877}
   - {fileID: 102987396}
   - {fileID: 2068573485}
@@ -45274,6 +45268,7 @@ Transform:
   - {fileID: 1597163952}
   - {fileID: 1551703188}
   - {fileID: 76497153}
+  - {fileID: 2079946667}
   - {fileID: 788701827}
   - {fileID: 1335462578}
   - {fileID: 1456594806}
@@ -71460,6 +71455,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5401332549562466084, guid: 7b390b56f7979ab40a144b14a94448a8, type: 3}
   m_PrefabInstance: {fileID: 1363086781}
   m_PrefabAsset: {fileID: 0}
+--- !u!224 &2079946667 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5163602103075673849, guid: 54592088ed8315f48a71f5cecdb49d9b, type: 3}
+  m_PrefabInstance: {fileID: 698198954}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2083311313 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4804971437558842175, guid: 138d9c29f7138bc49af1862697cfc5f3, type: 3}
@@ -73667,7 +73667,7 @@ Transform:
   - {fileID: 1538313580}
   - {fileID: 446265851}
   m_Father: {fileID: 966222857}
-  m_RootOrder: 85
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &668429178613382266
 PrefabInstance:
